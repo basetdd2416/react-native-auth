@@ -50,6 +50,7 @@ class LoginForm extends Component {
     );
   }
   render() {
+    console.log(process.env.DB_HOST)
     const { errorTextStyle } = styles;
     return (
       <Card>
